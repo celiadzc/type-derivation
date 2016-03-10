@@ -1,16 +1,22 @@
 digraph typederivation {
   graph [
     label = "Type-derivation",
-    ratio = auto,
+    center = true,
     fontcolor = "purple",
+    labeldistance ="39",
     size = "25"
     ];
   edge [
     color = "purple",
     fontcolor = "purple"
+    fontname = "liberation sans, sans-serif",
+    fontsize = "10",
+    labeldistance = "100",
+    width = "10",
     ];
   node [
     shape = record,
+    fontname = "liberation sans, sans-serif",
     color = "purple"
     fontcolor = "purple"
     ];
