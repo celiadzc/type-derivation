@@ -1,11 +1,15 @@
-digraph structs { 
-node [shape=record];
+digraph typederivation {
+  graph [
+    label = "Type-derivation",
+    ratio = "compress",
+    size = "10"];
+    node [shape=record];
 struct1 [shape=record,label="{ Courier | Howard Kettler|{1955|\© }| }"];
 struct2 [shape=record,label="{ Nimbus Mono L | URW++|{1984| }| }"];
 struct1 -> struct2 [ label = "Inspiration from leed" ];
 
 struct3 [shape=record,label="{ Not Courrier Sans | OSP|{2008| }| }"];
-struct2 -> struct3 [ label = "Source code derivation (fork)" ]; 
+struct2 -> struct3 [ label = "Source code derivation (fork)" ];
 
 struct4 [shape=record,label="{ Bitstream Prima | Jim Lyles + Sue Zafarana|{1998|\©}| }"];
 struct5 [shape=record,label="{ Bitstream Vera| Jim Lyles|{2002|\©}| }"];
@@ -14,9 +18,9 @@ struct4 -> struct5 [ label = "Inspiration from leed" ];
 struct6 [shape=record,label="{ DejaVu Sans| ?|{2003| }| }"];
 struct5 -> struct6 [ label = "Inspiration from leed" ];
 struct6 -> struct3 ;
-struct6 -> struct7 [ label = "Source code derivation (fork)" ]; 
+struct6 -> struct7 [ label = "Source code derivation (fork)" ];
 
-struct7 [shape=record,label="{ PropCourierSans | Manufactura Independente|{2010| }| Vera: espace entre les\n lettres 
+struct7 [shape=record,label="{ PropCourierSans | Manufactura Independente|{2010| }| Vera: espace entre les\n lettres
 proportion des \ncaracteres, fixation des \ndiacritiques}"];
 struct8 [shape=record,label="{ Virus DejaVu | Jonathan Barnbrook|{2012| }|13 graisses remplacees, \n certains caracteres ont\n ete redessines}"];
 struct9 [shape=record,label="{ Gehen | Brendan Molloy|{2012| }|changements de glyphes,\n notamment /a et /t \nen bas de casse}"];
@@ -72,7 +76,7 @@ struct33 -> struct34 [ label = "Source code derivation (fork)" ];
 
 struct35 [shape=record,label="{ Caslon | William Caslon|{1734|? }|}"];
 struct36 [shape=record,label="{ Caslon |American Type Founders|{1941|\© }|}"];
-struct35 -> struct36; 
+struct35 -> struct36;
 struct37 [shape=record,label="{ Libre Caslon | Rodrigo Fuenzalida + Pablo Impallari|{2014| }|optimisee pour le corps de texte sur ecran}"];
 struct36 -> struct37 [ label = "Inspiration from leed" ];
 struct38 [shape=record,label="{ Bodoni | Giambattista Bodoni|{1798|? }|}"];
@@ -85,4 +89,3 @@ struct42 [shape=record,label="{ Work Avec | OSP|{2015|}|modification de /a,\n de
 struct41 -> struct42 [ label = "Source code derivation (fork)" ];
 
 }
-
