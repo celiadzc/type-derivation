@@ -1,6 +1,6 @@
 # Type Derivation
 
-Tentative de représentation cartographique des dérivations de caractères typographiques sous licence libre. Projet réalisé dans le cadre du cours de typographie de @raphaelbastide à l'[ESADHaR](http://www.esadhar.fr).
+Tentative de représentation cartographique des dérivations de caractères typographiques sous licence libre. Projet initié par Célia Deyzac dans le cadre du cours de typographie de [Raphaël Bastide](http://raphaelbastide.com/) à l'[ESADHaR](http://www.esadhar.fr).
 
 ![Screenshot](screenshot.png)
 
