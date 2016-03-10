@@ -1,8 +1,8 @@
 # Type Derivation
 
-Tentative de représentation cartographique des dérivations de caractères typographiques sous licence libre.
+Tentative de représentation cartographique des dérivations de caractères typographiques sous licence libre. Projet réalisé dans le cadre du cours de typographie de @raphaelbastide à l'[ESADHaR](http://www.esadhar.fr).
 
-Projet réalisé dans le cadre du cours de typographie à l'[ESADHaR](http://www.esadhar.fr).
+![Screenshot](screenshot.png)
 
 ## Outils
 
