@@ -1,3 +1,6 @@
 body{
-	font:20px/1.1em arial, sans-serif;
+  font:20px/1.1em arial, sans-serif;
+}
+svg{
+  margin:20px;
 }

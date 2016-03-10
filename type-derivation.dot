@@ -1,9 +1,19 @@
 digraph typederivation {
   graph [
     label = "Type-derivation",
-    ratio = "compress",
-    size = "30"];
-    node [shape=record];
+    ratio = auto,
+    fontcolor = "purple",
+    size = "25"
+    ];
+  edge [
+    color = "purple",
+    fontcolor = "purple"
+    ];
+  node [
+    shape = record,
+    color = "purple"
+    fontcolor = "purple"
+    ];
 struct1 [shape=record,label="{ Courier | Howard Kettler|{1955|\© }| }"];
 struct2 [shape=record,label="{ Nimbus Mono L | URW++|{1984| }| }"];
 struct1 -> struct2 [ label = "Inspiration from leed" ];
