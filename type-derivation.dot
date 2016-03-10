@@ -2,7 +2,7 @@ digraph typederivation {
   graph [
     label = "Type-derivation",
     ratio = "compress",
-    size = "10"];
+    size = "30"];
     node [shape=record];
 struct1 [shape=record,label="{ Courier | Howard Kettler|{1955|\© }| }"];
 struct2 [shape=record,label="{ Nimbus Mono L | URW++|{1984| }| }"];

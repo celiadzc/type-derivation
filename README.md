@@ -15,3 +15,7 @@ Lancer un serveur web, node ou apache (mamp, wamp…) puis accéder à `index.ht
 ## Collaboration
 
 Ce projet est non exhaustif et ouvert aux collaborations.
+
+# Merci
+
+Conversion Graphviz à HTML et SVG rendue possible gràce à [Viz](https://github.com/mdaines/viz.js)
