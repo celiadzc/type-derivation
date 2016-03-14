@@ -1,88 +1,327 @@
-digraph structs { 
-node [shape=record];
+
+digraph typederivation {
+
+
+
+graph [
+
+
+label = "Type-derivation",
+
+
+center = true,
+
+
+fontcolor = "purple",
+
+
+labeldistance ="40",
+
+
+size = "20"
+
+ratio= 0.30
+
+nodesep=0.8
+
+
+];
+
+
+edge [
+
+
+color = "purple",
+
+
+fontcolor = "purple"
+
+
+fontname = "liberation sans, sans-serif",
+
+
+fontsize = "10",
+
+
+labeldistance = "100",
+
+
+width = "10",
+
+
+
+
+];
+
+
+node [
+
+
+shape = record,
+
+
+fontname = "liberation sans, sans-serif",
+
+
+color = "purple"
+
+
+fontcolor = "purple"
+
+
+];
+
+
 struct1 [shape=record,label="{ Courier | Howard Kettler|{1955|\© }| }"];
+
+
 struct2 [shape=record,label="{ Nimbus Mono L | URW++|{1984| }| }"];
+
+
 struct1 -> struct2 [ label = "Inspiration from leed" ];
 
+
+
+
+
 struct3 [shape=record,label="{ Not Courrier Sans | OSP|{2008| }| }"];
-struct2 -> struct3 [ label = "Source code derivation (fork)" ]; 
+
+
+struct2 -> struct3 [ label = "Source code derivation (fork)" ];
+
+
+
+
 
 struct4 [shape=record,label="{ Bitstream Prima | Jim Lyles + Sue Zafarana|{1998|\©}| }"];
+
+
 struct5 [shape=record,label="{ Bitstream Vera| Jim Lyles|{2002|\©}| }"];
+
+
 struct4 -> struct5 [ label = "Inspiration from leed" ];
 
-struct6 [shape=record,label="{ DejaVu Sans| ?|{2003| }| }"];
-struct5 -> struct6 [ label = "Inspiration from leed" ];
-struct6 -> struct3 ;
-struct6 -> struct7 [ label = "Source code derivation (fork)" ]; 
 
-struct7 [shape=record,label="{ PropCourierSans | Manufactura Independente|{2010| }| Vera: espace entre les\n lettres 
+
+
+
+struct6 [shape=record,label="{ DejaVu Sans| ?|{2003| }| }"];
+
+
+struct5 -> struct6 [ label = "Inspiration from leed" ];
+
+
+struct6 -> struct3 ;
+
+
+struct6 -> struct7 [ label = "Source code derivation (fork)" ];
+
+
+
+
+
+struct7 [shape=record,label="{ PropCourierSans | Manufactura Independente|{2010| }| Vera: espace entre les\n lettres
+
+
 proportion des \ncaracteres, fixation des \ndiacritiques}"];
+
+
 struct8 [shape=record,label="{ Virus DejaVu | Jonathan Barnbrook|{2012| }|13 graisses remplacees, \n certains caracteres ont\n ete redessines}"];
+
+
 struct9 [shape=record,label="{ Gehen | Brendan Molloy|{2012| }|changements de glyphes,\n notamment /a et /t \nen bas de casse}"];
+
+
 struct6 -> struct8 [ label = "Source code derivation (fork)" ];
+
+
 struct6 -> struct9 [ label = "Source code derivation (fork)" ];
+
+
 struct3 -> struct7 [ label = "Source code derivation (fork)" ];
 
+
+
+
+
 struct10 [shape=record,label="{ Baskerville | John Baskerville + John Handy|{1725| }| }"];
+
+
 struct11 [shape=record,label="{ Fry Baskerville | Isaac Moore|{1766|\© }|}"];
+
+
 struct12 [shape=record,label="{ Baskerville | American Type Founders|{1941|\© }|?}"];
+
+
 struct10 -> struct11 [ label = "Inspiration from leed" ];
+
+
 struct11 -> struct12;
 
+
+
+
+
 struct13 [shape=record,label="{ Open Baskerville | Simon Pascal Klein|{2011| }|}"];
+
+
 struct12 -> struct13 [ label = "Inspiration from leed" ];
 
+
+
+
+
 struct14 [shape=record,label="{ Mrs Eaves | Zuzana Licko|{1996| }|ligatures ornementales,\n reduction de la hauteur de x,\n relativ ea la hauteur des capitales}"];
+
+
 struct15 [shape=record,label="{ Libre Baskerville | Rodrigo Fuenzalida + Pablo Impallari|{2015| }|optimisee pour le corps\n de texte sur ecran}"];
+
+
 struct10 -> struct14 [ label = "Inspiration from leed" ];
+
+
 struct12 -> struct15 [ label = "Inspiration from leed" ];
 
+
+
+
+
 struct16 [shape=record,label="{ Junius | George Hickes|{1703 - 1705| }| }"];
+
+
 struct17 [shape=record,label="{ JuniCode | Peter S. Baker|{2001| }|proportions modernes - \ncapitales plus petites entre autre }"];
+
+
 struct16 -> struct17 [ label = "Source code derivation (fork)" ];
+
+
 struct18 [shape=record,label="{ Linux Libertine | Philipp Poll|{2003| }|}"];
+
+
 struct19 [shape=record,label="{ Libertinage | OSP|{2008| }|dessinee d'apres \nles glyphes}"];
+
+
 struct18 -> struct19 [ label = "Source code derivation (fork)" ];
+
+
 struct20 [shape=record,label="{ Utopia | Robert Slimbach|{1989| }|}"];
+
+
 struct21 [shape=record,label="{ Autopia | Antoine Gelgon|{2013| }|dessinee d apres Autotrace\n et Python sur FontForge}"];
+
+
 struct20 -> struct21 [ label = "Source code derivation (fork)" ];
 
+
+
+
+
 struct22 [shape=record,label="{ Sani Trixie Sans | GrandChaos9000|{2014| }| }"];
+
+
 struct23 [shape=record,label="{ Gap Sans | Alexandre Liziard + Etienne Ozeray|{2015| }|}"];
+
+
 struct22 -> struct23 [ label = "Source code derivation (fork)" ];
+
+
 struct24 [shape=record,label="{ Fira Mono | Carrois Type Design|{2013| }|}"];
+
+
 struct25 [shape=record,label="{ Fira Code | Nikita Prokopov|{2014| }|}"];
+
+
 struct24 -> struct25 [ label = "Source code derivation (fork)" ];
+
+
 struct26 [shape=record,label="{ Karla | Jonathan Pinhorn|{2012| }|}"];
+
+
 struct27 [shape=record,label="{ Karmilla | Jonathan Pinhorn + Manuel Schmalstieg + Raphael Bastide + Nicolas Maravitti|{2015| }|ajout de glyphes pour l utilisation en francais}"];
+
+
 struct26 -> struct27 [ label = "Source code derivation (fork)" ];
 
+
+
+
+
 struct28 [shape=record,label="{ Arial | Robin Nicholas + Patricia Saunders|{1982|\© }|}"];
+
+
 struct29 [shape=record,label="{ Vremena Grotesk | Abstrkt|{2012| }|4 graisses et 4 italics reguliers}"];
+
+
 struct28 -> struct29 [ label = "Source code derivation (fork)" ];
+
+
 struct30 [shape=record,label="{ Manifont Grotesk | Alexandre Liziard + Etienne Ozeray|{2015 ?| }|}"];
+
+
 struct29 -> struct30 [ label = "Source code derivation (fork)" ];
+
+
 struct31 [shape=record,label="{ Times New Roman | Victor Lardent|{1931|\© }|}"];
+
+
 struct32 [shape=record,label="{ Vremena Serif | Abstrkt|{2012| }|4 graisses et 4 italics reguliers}"];
+
+
 struct31 -> struct32 [ label = "Source code derivation (fork)" ];
+
+
 struct33 [shape=record,label="{ Terminus | ?|{?| }|}"];
+
+
 struct34 [shape=record,label="{ Police | Lucas Le Jeune + Etienne Ozeray|{2014| }|deformation sur PureData}"];
+
+
 struct33 -> struct34 [ label = "Source code derivation (fork)" ];
 
+
+
+
+
 struct35 [shape=record,label="{ Caslon | William Caslon|{1734|? }|}"];
+
+
 struct36 [shape=record,label="{ Caslon |American Type Founders|{1941|\© }|}"];
-struct35 -> struct36; 
+
+
+struct35 -> struct36;
+
+
 struct37 [shape=record,label="{ Libre Caslon | Rodrigo Fuenzalida + Pablo Impallari|{2014| }|optimisee pour le corps de texte sur ecran}"];
+
+
 struct36 -> struct37 [ label = "Inspiration from leed" ];
+
+
 struct38 [shape=record,label="{ Bodoni | Giambattista Bodoni|{1798|? }|}"];
+
+
 struct39 [shape=record,label="{ Bodoni | American Type Founders|{1909|\© }|}"];
+
+
 struct38 -> struct39;
+
+
 struct40 [shape=record,label="{ Libre Bodoni |Rodrigo Fuenzalida + Pablo Impallari|{ 2015|\© }|optimisee pour le corps de texte sur ecran}"];
+
+
 struct39 -> struct40 [ label = "Inspiration from leed" ];
+
+
 struct41 [shape=record,label="{ Work Sans | Wei Huang|{2015| }|}"];
+
+
 struct42 [shape=record,label="{ Work Avec | OSP|{2015|}|modification de /a,\n de /g et /t }"];
+
+
 struct41 -> struct42 [ label = "Source code derivation (fork)" ];
 
-}
 
+
+
+
+}
