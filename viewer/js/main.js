@@ -6,5 +6,5 @@ var graph = fetch('../../type-derivation.dot')
   document.body.innerHTML += Viz(content,  { engine: "dot" });
 })
 .catch(function(err){
-  console.log(err)
+  console.log("error");
 })
