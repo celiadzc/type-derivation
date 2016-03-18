@@ -1,21 +1,21 @@
 # Type Derivation
 
-Tentative de représentation cartographique des dérivations de caractères typographiques sous licence libre. Projet initié par Célia Deyzac dans le cadre du cours de typographie de [Raphaël Bastide](http://raphaelbastide.com/) à l'[ESADHaR](http://www.esadhar.fr).
+Try to make visual mapping of typography derivations on Open Source Licence. The project was initied by Célia Deyzac in the typesetting course of [Raphaël Bastide](http://raphaelbastide.com/) in [ESADHaR](http://www.esadhar.fr).
 
 ![Screenshot](screenshot.png)
 
-## Outils
+## Tools
 
-La carte a été réalisé avec [GraphViz](http://graphviz.org/).
+Map made with [GraphViz](http://graphviz.org/) software.
 
-## Usage
+## Use
 
-Lancer un serveur web, node ou apache (mamp, wamp…) puis accéder à `index.html` via `localhost` dans le navigateur.
+Launch a web server, as node or apache (mamp, wamp..) then access to `index.html` via `localhost` in the browser. 
 
 ## Collaboration
 
-Ce projet est non exhaustif et ouvert aux collaborations.
+This project is non-exhaustive and open to collaborations. 
 
-# Merci
+# Thanks
 
-Conversion Graphviz à HTML et SVG rendue possible gràce à [Viz](https://github.com/mdaines/viz.js)
+Graphviz to HTML and SVG conversion possible thanks to [Viz](https://github.com/mdaines/viz.js)
