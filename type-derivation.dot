@@ -3,8 +3,8 @@ digraph typederivation {
     label = "Type-derivation",
     center = true,
     fontcolor = "purple",
-    labeldistance ="40",
-    size = "20",
+    labeldistance ="140",
+    size = "30, 70",
     ratio = 0.30,
     rank = "source",
     nodesep = 0.8

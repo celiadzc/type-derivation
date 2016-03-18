@@ -3,7 +3,7 @@ var graph = fetch('../../type-derivation.dot')
   return response.text();
 })
 .then(function(content) {
-  document.body.innerHTML += Viz(content,  { engine: "dot" });
+  document.body.innerHTML += Viz(content,  { engine: "circo" });
 })
 .catch(function(err){
   console.log("error");
