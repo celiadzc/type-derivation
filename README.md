@@ -1,6 +1,6 @@
 # Type Derivation
 
-Try to make visual mapping of typography derivations on Open Source Licence. The project was initied by Célia Deyzac in the typesetting course of [Raphaël Bastide](http://raphaelbastide.com/) in [ESADHaR](http://www.esadhar.fr).
+Map visualization of the impusle of typography derivations in Open Source Licence world. The project was initied by Célia Deyzac in the typesetting course of [Raphaël Bastide](http://raphaelbastide.com/) in [ESADHaR](http://www.esadhar.fr).
 
 ![Screenshot](screenshot.png)
 
