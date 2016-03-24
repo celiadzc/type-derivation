@@ -1,21 +1,18 @@
 # Type Derivation
 
-Map visualization of the impusle of typography derivations in Open Source Licence world. The project was initied by Célia Deyzac in the typesetting course of [Raphaël Bastide](http://raphaelbastide.com/) in [ESADHaR](http://www.esadhar.fr).
+Map visualization of open source typography derivations. The project was initied by Célia Deyzac in the typography course of [Raphaël Bastide](http://raphaelbastide.com/) at [ESADHaR](http://www.esadhar.fr).
 
 ![Screenshot](screenshot.png)
 
-## Tools
-
-Map made with [GraphViz](http://graphviz.org/) software.
-
 ## Use
 
-Launch a web server, as node or apache (mamp, wamp..) then access to `index.html` via `localhost` in the browser. 
+Launch a web server, node or apache (mamp, wamp..) then access to `index.html` via `localhost` in the browser.
 
 ## Collaboration
 
-This project is non-exhaustive and open to collaborations. 
+This project is non-exhaustive and open to collaborations. You can either open an issue, or make a pull request.
 
-# Thanks
+## Tools
 
-Graphviz to HTML and SVG conversion possible thanks to [Viz](https://github.com/mdaines/viz.js)
+- Map made using [GraphViz](http://graphviz.org/)
+- Graphviz to HTML and SVG conversion possible thanks to [Viz](https://github.com/mdaines/viz.js)
