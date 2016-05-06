@@ -2,13 +2,16 @@ digraph typederivation {
   graph [
     label = "Type-derivation",
     center = true,
-    fontcolor = "purple",
-    labeldistance ="140",
-    size = "30, 70",
-    ratio = 0.30,
+    fontcolor = "white",
+    labeldistance ="120",
+    size = "8.3, 11.7",
+    ratio =fill,
     rank = "source",
-    nodesep = 0.8
+    margin=0.1,
+    nodesep = 0.8,
   ];
+
+
   edge [
     color = "purple",
     fontcolor = "purple"
@@ -17,16 +20,20 @@ digraph typederivation {
     labeldistance = "100",
     width = "10",
   ];
+
+
   node [
+    style=filled,
+    fillcolor="black",
     shape = "record",
     fontname = "liberation sans, sans-serif",
-    color = "purple",
-    fontcolor = "purple",
+    color = "white",
+    fontcolor = "white",
   ];
 
   // Nodes
 
-  struct1 [shape=record,label="{ Courier | Howard Kettler|{1955|\Â© }| }"];
+  struct1 [shape=record,label="{ Courier | Howard Kettler|{1955|\Ã‚Â© }| }"];
   struct2 [
     shape=record,
     fontname = "nimbus_mono_lregular"
@@ -37,8 +44,8 @@ digraph typederivation {
    fontname = "notcouriersansregular"
    label="{ Not Courrier Sans | OSP|{2008| }| }"];
   struct2 -> struct3 [ label = "Source code derivation (fork)" ];
-  struct4 [shape=record,label="{ Bitstream Prima | Jim Lyles + Sue Zafarana|{1998|\Â©}| }"];
-  struct5 [shape=record,label="{ Bitstream Vera| Jim Lyles|{2002|\Â©}| }"];
+  struct4 [shape=record,label="{ Bitstream Prima | Jim Lyles + Sue Zafarana|{1998|\Ã‚Â©}| }"];
+  struct5 [shape=record,label="{ Bitstream Vera| Jim Lyles|{2002|\Ã‚Â©}| }"];
   struct4 -> struct5 [ label = "Inspiration from leed" ];
   struct6 [
     shape=record,
@@ -59,8 +66,8 @@ digraph typederivation {
   struct6 -> struct9 [ label = "Source code derivation (fork)" ];
   struct3 -> struct7 [ label = "Source code derivation (fork)" ];
   struct10 [shape=record,label="{ Baskerville | John Baskerville + John Handy|{1725| }| }"];
-  struct11 [shape=record,label="{ Fry Baskerville | Isaac Moore|{1766|\Â© }|}"];
-  struct12 [shape=record,label="{ Baskerville | American Type Founders|{1941|\Â© }|?}"];
+  struct11 [shape=record,label="{ Fry Baskerville | Isaac Moore|{1766|\Ã‚Â© }|}"];
+  struct12 [shape=record,label="{ Baskerville | American Type Founders|{1941|\Ã‚Â© }|?}"];
   struct10 -> struct11 [ label = "Inspiration from leed" ];
   struct11 -> struct12;
   struct13 [
@@ -68,7 +75,7 @@ digraph typederivation {
     fontname = "open_baskerville_0.0.75normal"
     label="{ Open Baskerville | Simon Pascal Klein|{2011| }|}"];
   struct12 -> struct13 [ label = "Inspiration from leed" ];
-  struct14 [shape=record,label="{ Mrs Eaves | Zuzana Licko|{1996|\© }|ligatures ornementales,\n reduction de la hauteur de x,\n relativ ea la hauteur des capitales}"];
+  struct14 [shape=record,label="{ Mrs Eaves | Zuzana Licko|{1996|\Â© }|ligatures ornementales,\n reduction de la hauteur de x,\n relativ ea la hauteur des capitales}"];
   struct15 [
     shape=record,
     fontname = "open_baskerville_0.0.75normal"
@@ -93,7 +100,7 @@ digraph typederivation {
     fontname = "libertinagefull"
     label="{ Libertinage | OSP|{2008| }|dessinee d'apres \nles glyphes}"];
   struct18 -> struct19 [ label = "Source code derivation (fork)" ];
-  struct20 [shape=record,label="{ Utopia | Robert Slimbach|{1989|\© }|}"];
+  struct20 [shape=record,label="{ Utopia | Robert Slimbach|{1989|\Â© }|}"];
   struct21 [
     shape=record,
     fontname = "autopiaregular"
@@ -126,7 +133,7 @@ digraph typederivation {
     fontname = "karmillaregular"
     label="{ Karmilla | Jonathan Pinhorn + Manuel Schmalstieg + Raphael Bastide + Nicolas Maravitti|{2015| }|ajout de glyphes pour l utilisation en francais}"];
   struct26 -> struct27 [ label = "Source code derivation (fork)" ];
-  struct28 [shape=record,label="{ Arial | Robin Nicholas + Patricia Saunders|{1982|\Â© }|}"];
+  struct28 [shape=record,label="{ Arial | Robin Nicholas + Patricia Saunders|{1982|\Ã‚Â© }|}"];
   struct29 [
     shape=record,
     fontname = "vremena_groteskregular"
@@ -137,7 +144,7 @@ digraph typederivation {
     fontname = "manifont_groteskbook"
     label="{ Manifont Grotesk | Alexandre Liziard + Etienne Ozeray|{2015 ?| }|}"];
   struct29 -> struct30 [ label = "Source code derivation (fork)" ];
-  struct31 [shape=record,label="{ Times New Roman | Victor Lardent|{1931|\Â© }|}"];
+  struct31 [shape=record,label="{ Times New Roman | Victor Lardent|{1931|\Ã‚Â© }|}"];
   struct32 [
     shape=record,
     fontname = "vremenabook"
@@ -153,7 +160,7 @@ digraph typederivation {
     label="{ Police | Lucas Le Jeune + Etienne Ozeray|{2014| }|deformation sur PureData}"];
   struct33 -> struct34 [ label = "Source code derivation (fork)" ];
   struct35 [shape=record,label="{ Caslon | William Caslon|{1734|? }|}"];
-  struct36 [shape=record,label="{ Caslon |American Type Founders|{1941|\Â© }|}"];
+  struct36 [shape=record,label="{ Caslon |American Type Founders|{1941|\Ã‚Â© }|}"];
   struct35 -> struct36;
   struct37 [
     shape=record,
@@ -161,12 +168,12 @@ digraph typederivation {
     label="{ Libre Caslon | Rodrigo Fuenzalida + Pablo Impallari|{2014| }|optimisee pour le corps de texte sur ecran}"];
   struct36 -> struct37 [ label = "Inspiration from leed" ];
   struct38 [shape=record,label="{ Bodoni | Giambattista Bodoni|{1798|? }|}"];
-  struct39 [shape=record,label="{ Bodoni | American Type Founders|{1909|\Â© }|}"];
+  struct39 [shape=record,label="{ Bodoni | American Type Founders|{1909|\Ã‚Â© }|}"];
   struct38 -> struct39;
   struct40 [
     shape=record,
     fontname = "libre_bodoniregular"
-    label="{ Libre Bodoni |Rodrigo Fuenzalida + Pablo Impallari|{ 2015|\Â© }|optimisee pour le corps de texte sur ecran}"];
+    label="{ Libre Bodoni |Rodrigo Fuenzalida + Pablo Impallari|{ 2015|\Ã‚Â© }|optimisee pour le corps de texte sur ecran}"];
   struct39 -> struct40 [ label = "Inspiration from leed" ];
   struct41 [
     shape=record,
