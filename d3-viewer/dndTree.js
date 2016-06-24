@@ -380,7 +380,7 @@ treeJSON = d3.json("data.json", function(error, treeData) {
             }
         };
         childCount(0, root);
-        var newHeight = d3.max(levelWidth) * 10; // 25 pixels per line  
+        var newHeight = d3.max(levelWidth) * 25; // 25 pixels per line
         tree = tree.size([newHeight, viewerWidth]);
 
         // Compute the new tree layout.
@@ -404,7 +404,10 @@ treeJSON = d3.json("data.json", function(error, treeData) {
         // Enter any new nodes at the parent's previous position.
         var nodeEnter = node.enter().append("g")
             .call(dragListener)
-            .attr("class", "node")
+            // .attr("class", "node")
+            .attr('class', function(d) {
+              return "node " + d.name;
+            })
             .attr("transform", function(d) {
                 return "translate(" + source.x0 + "," + source.y0 + ")";
             })
@@ -425,7 +428,7 @@ treeJSON = d3.json("data.json", function(error, treeData) {
             .attr('class', 'nodeText')
             .attr("text-anchor","middle")
             .text(function(d) {
-                return d.name;
+              return d.name;
             })
             .style("fill-opacity", 0);
 
