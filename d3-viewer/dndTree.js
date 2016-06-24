@@ -406,7 +406,7 @@ treeJSON = d3.json("data.json", function(error, treeData) {
             .call(dragListener)
             // .attr("class", "node")
             .attr('class', function(d) {
-              return "node " + d.name;
+              return "node " + d.id;
             })
             .attr("transform", function(d) {
                 return "translate(" + source.x0 + "," + source.y0 + ")";

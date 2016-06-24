@@ -1,18 +1,18 @@
 {
     "name": "Fonte 2",
-    "font-id": "fonte-derivee",
+    "id": "fonteDerivee",
     "designer": "John doe",
     "children": [{
         "name": "Fonte Dérivée",
-        "font-id": "fonte-derivee",
+        "id": "fonte-derivee",
         "designer": "John doe",
         "children": [{
             "name": "Nouvelle fonte",
-            "font-id": "nouvelle-fonte1",
+            "id": "nouvelle-fonte1",
             "designer": "John doe"
         }, {
             "name": "Nouvelle fonte",
-            "font-id": "nouvelle-fonte2",
+            "id": "nouvelle-fonte2",
             "designer": "John doe"
         }]
     }]
