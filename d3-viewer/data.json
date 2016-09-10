@@ -1,19 +1,33 @@
 {
-    "name": "Fonte 2",
-    "id": "fonteDerivee",
-    "designer": "John doe",
-    "children": [{
-        "name": "Fonte Dérivée",
+    "name": "Baskerville",
+    "id": "fonte-mere",
+    "designer": "John Baskerville, John Handy",
+    "children": [
+      {
+        "name": "Mrs Eaves",
         "id": "fonte-derivee",
-        "designer": "John doe",
-        "children": [{
-            "name": "Nouvelle fonte",
+        "designer": "Isaac Moore",
+        }],
+    "children": [
+        {
+        "name": "Fry Baskerville",
+        "id": "fonte-derivee2",
+        "designer": "Isaac Moore",
+        "children": [
+          {
+            "name": "Baskerville",
             "id": "nouvelle-fonte1",
-            "designer": "John doe"
-        }, {
-            "name": "Nouvelle fonte",
-            "id": "nouvelle-fonte2",
-            "designer": "John doe"
+            "designer": "American Type Founders",
+            "children": [
+              {
+                "name": "Open Baskerville",
+                "id": "nouvelle-fonte2",
+                "designer":"Simon Pascal Klein",
+              },{
+                "name": "Libre Baskerville",
+                "id": "nouvelle-fonte3",
+                "designer": "Rodrigo Fuenzalida + Pablo Impallari"
+            }]
         }]
     }]
 }
