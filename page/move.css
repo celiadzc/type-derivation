@@ -1,0 +1,22 @@
+body, html {
+	height: 100%; /* Required to make div fill to screen height, otherwise IE picks smaller image height */
+	margin: 0;
+	padding: 0; /* Remove standard behaviour for body margin */
+	overflow: hidden; /*removes scrollbars*/
+	-ms-touch-action: none;
+	-ms-content-zooming: none;
+}
+svg {
+	background: #f6f6f6;
+	height: 100%; /* Includes to stop Opera and firefox extending offscreen*/
+	width: 100%; /*Necessary to center the svg image area horizontally*/
+	cursor: move;
+}
+text {
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}

@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Svg static view box</title>
+	<style>
+		body, html {
+			height: 100%; /* Required to make div fill to screen height, otherwise IE picks smaller image height */
+			margin: 0;
+			padding: 0; /* Remove standard behaviour for body margin */
+			overflow: hidden; /*removes scrollbars*/
+			-ms-touch-action: none; /*stops scrolling on rest of document*/
+			-ms-content-zooming: none;
+		}
+		svg {
+			background: lightgrey;
+			height: 100%; /* Includes to stop Opera and firefox extending offscreen*/
+			width: 100%; /*Necessary to center the svg image area horizontally*/
+		}
+	</style>
+</head>
+<body>
+	<img xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 2000 1000">
+		<img src="poster-2.svg"/>
+	</img>
+</body>
+</html>

@@ -1,0 +1,45 @@
+@charset "utf-8";
+/* CSS Document */
+
+@import url(http://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,600,300);
+
+html, body {
+	height: 100%;
+	width: 100%;
+}
+
+/* header*/
+.top {
+  position: static;
+	background: black;
+	width: 100%;
+	min-width: 50%;
+	height: 5%;
+	padding-left: 100px;
+	line-height: 2.1;
+}
+
+.title {
+	font-family: 'MonoidRegular';
+	font-weight: normal;
+	font-style: normal;
+  font-size: 70px;
+	color: white;
+ 	vertical-align: middle;
+	display: flex;
+}
+
+/* content */
+.ui-page-grid {
+	position: static;
+	height: 90%;
+	width: 100%;
+}
+
+.column {
+  position: fixed;
+  bottom: 50px;
+  right: 120px;
+  width: 200px;
+}
