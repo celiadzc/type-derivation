@@ -4,8 +4,8 @@
 @import url(http://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700);
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,600,300);
 @font-face {
-	font-family: 'MonoidRegular';
-	src: url('MonoidRegular.ttf') format("truetype");
+	font-family: 'Monoid';
+	src: local(monoid-regular.ttf) url(monoid-regular.ttf) format("truetype");
 }
 
 html, body {
