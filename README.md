@@ -2,11 +2,11 @@
 
 Map visualization of open source typography derivations. The project was initied by Célia Deyzac in the typography course of [Raphaël Bastide](http://raphaelbastide.com/) at [ESADHaR](http://www.esadhar.fr).
 
-![Screenshot](screenshot.png)
+![Screenshot](screenshot2.png)
 
 ## Use
 
-Launch a web server, node or apache (mamp, wamp..) then access to `index.html` via `localhost` in the browser.
+Map visualization is availible here celiadzc.github.io/type-derivation. Zoom in, zoom out, swipe the map by click on the font's card to move in.
 
 ## Collaboration
 
