@@ -2,7 +2,7 @@
 
 Map visualization of open source typography derivations. The project was initied by Célia Deyzac in the typography course of [Raphaël Bastide](http://raphaelbastide.com/) at [ESADHaR](http://www.esadhar.fr).
 
-![Screenshot2](screenshot2.png)
+![screenshot2](screenshot2.jpg)
 
 ## Use
 
