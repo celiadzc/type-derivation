@@ -1,15 +1,13 @@
 @charset "utf-8";
 /* CSS Document */
 
-@import url(http://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700);
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,600,300);
-@font-face {
-    font-family: 'monoidregular';
-    src:url(monoid-regular-webfont.woff2) format('woff2'),
-				url(monoid-regular-webfont.woff) format('woff');
-  	font-weight: normal;
-    font-style: normal;
-
+@font-face{
+	font-family: 'monoidregular';
+	src: url('monoid-regular-webfont.woff') format('woff'),
+	     url('monoid-regular.ttf') format('truetype'),
+	     url('monoid-regular-webfont.woff2') format('woff2');
+	font-weight: normal;
+	font-style: normal;
 }
 
 html, body {
@@ -30,7 +28,7 @@ html, body {
 
 .title {
 	font-family: 'MonoidRegular';
-	font-weight: regular;
+	font-weight: normal;
 	font-style: normal;
   font-size: 70px;
 	color: white;
