@@ -6,7 +6,8 @@ Map visualization of open source typography derivations. The project was initied
 
 ## Use
 
-Map visualization is availible here https://celiadzc.github.io/type-derivation/. Zoom in, zoom out, swipe the map by click on the font's card to move in.
+Map visualization is availible here https://celiadzc.github.io/type-derivation/. 
+→ Zoom in, zoom out, swipe the map by click on the font's card to move in.
 
 ## Collaboration
 
