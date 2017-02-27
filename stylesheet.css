@@ -4,6 +4,7 @@
 html, body {
 	height: 100%;
 	width: 100%;
+	/*font-size: 2.4;*/
 }
 
 /* header*/
@@ -13,25 +14,25 @@ html, body {
 	width: 100%;
 	min-width: 50%;
 	height: 5%;
-	padding-left: 100px;
+	padding-left: 2%;
 	line-height: 2.1;
+	font-size: 110%;
 }
 
 .title {
+	text-align: left;
 	font-family: 'Michroma', sans-serif;
 	font-weight: normal;
 	font-style: normal;
-  font-size: 70px;
 	color: white;
- 	vertical-align: middle;
 	display: flex;
 }
 
 .arrow {
-	padding-left: 50px;
+	padding-left: 1%;
 }
 .subtitle {
-	padding-left: 50px;
+	padding-left: 1%;
 }
 /* content */
 .ui-page-grid {
