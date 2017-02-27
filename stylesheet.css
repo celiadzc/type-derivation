@@ -4,7 +4,6 @@
 html, body {
 	height: 100%;
 	width: 100%;
-	/*font-size: 2.4;*/
 }
 
 /* header*/
@@ -16,7 +15,7 @@ html, body {
 	height: 5%;
 	padding-left: 2%;
 	line-height: 2.1;
-	font-size: 110%;
+	font-size: 100%;
 }
 
 .title {
