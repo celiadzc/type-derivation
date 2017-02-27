@@ -1,7 +1,7 @@
 # Type Derivation
 
 Map visualization of open source typography derivations. The project was initied by Célia Deyzac in the typography course of [Raphaël Bastide](http://raphaelbastide.com/) at [ESADHaR](http://www.esadhar.fr).
-Visualization availible here https://celiadzc.github.io/type-derivation/.
+Visualization availible here http://celiadzc.github.io/type-derivation/.
 
 ![screenshot2](screenshot2.jpg)
 
